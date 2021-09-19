@@ -174,7 +174,7 @@ start:
 	mov ax, 13h
 	int 10h
 	mov bh,0h
-	mov [delay1], 0fH
+	mov [delay1], 01H
 	mov [pass_exit], 0
 	mov [xp], 5
 	mov [yp], 100
